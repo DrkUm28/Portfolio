@@ -246,15 +246,6 @@ html{
 
 /*css skills*/
 
-.skills__container{
-    row-gap: 3.5rem;
-    background-color: #252A2E;
-}
-
-.skills_imgs{
-    display: grid;
-}
-
 
 .skills_imgs{
     width: 80px;
@@ -263,6 +254,8 @@ html{
     border-radius: 3rem;
     place-items: center;
     margin-bottom: 1rem;
+    margin-left: 23px;
+    
 }
 
 .skills_imgs:hover{
