@@ -254,7 +254,6 @@ html{
     border-radius: 3rem;
     place-items: center;
     margin-bottom: 1rem;
-    margin-left: 23px;
     
 }
 
@@ -264,4 +263,7 @@ html{
 
 .skills_imgs img{
     width: 40px;   
+}
+row {
+    grid-auto-rows: auto
 }
