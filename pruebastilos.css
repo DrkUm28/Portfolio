@@ -26,6 +26,16 @@ row-gap: 3.5rem
     gap: 2.5rem 2rem;
 }
 
+.habilidades_col{
+    grid-template-columns: repeat(3,  max-content);
+    gap: 2.5rem 2rem;
+}
+.habilidades_col,
+habilidades_container
+{
+    display: grid;
+}
+
 .habilidades_datos{
     justify-content: center;
     text-align: center;
