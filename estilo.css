@@ -269,6 +269,6 @@ html{
 .skills_imgs img{
     width: 40px;   
 }
-row {
+.row {
     grid-auto-rows: auto
 }

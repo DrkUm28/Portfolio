@@ -1,0 +1,53 @@
+
+
+
+.habilidades_container{
+row-gap: 3.5rem
+}
+
+.habilidades_titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: .5rem;
+    font-size: small;
+    font-weight: bold;
+    margin-bottom: 2.5rem;
+}
+
+.habilidades_info,
+.habilidades_datos,
+.habilidades_blob{
+    display: grid;
+}
+
+.habilidades_info{
+    grid-template-columns: repeat(3,  max-content);
+    gap: 2.5rem 2rem;
+}
+
+.habilidades_datos{
+    justify-content: center;
+    text-align: center;
+}
+
+.habilidades_blob{
+    width: 80px;
+    height: 100px;
+    background-color: grey;
+    border-radius: 3rem;
+    place-items: center;
+    margin-bottom: 1rem;
+}
+
+.habilidades_blob img{
+    width: 40px;
+}
+
+.habilidades_nombre{
+    font-size: small;
+    margin-bottom: .25rem;
+}
+
+
+
