@@ -27,11 +27,11 @@ row-gap: 3.5rem
 }
 
 .habilidades_col{
-    grid-template-columns: repeat(3,  max-content);
+    grid-template-columns: repeat(2,  max-content);
     gap: 2.5rem 2rem;
 }
 .habilidades_col,
-habilidades_container
+.habilidades_container
 {
     display: grid;
 }
