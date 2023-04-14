@@ -1,63 +1,136 @@
-
-
-
-.habilidades_container{
-row-gap: 3.5rem
+.portfolio{
+    background-color: #252A2E;
+    color: #fff;
+    padding: 50px 20px;
 }
 
-.habilidades_titulo{
+.portfolio .contenido-seccion{
+    max-width: 1100px;
+    margin: auto;
+}
+
+.portfolio h2{
+    font-size: 48px;
+    font-family: 'Righteous';
+    text-align: center;
+    padding: 20px 0;
+}
+
+.portfolio .galeria{
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.portfolio .galeria .proyecto{
+    position: relative;
+    max-width: 340px;
+    height: fit-content;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.portfolio .galeria .proyecto img{
+    width: 300px;
+    height: 300px;
+    display: block;
+    border-radius: 8px;
+    transition: transform 0.5s;
+}
+
+/*.portfolio .galeria .proyecto .overlay{
+    background: linear-gradient(rgba(28,182,152,.8), rgba(28,182,152,.8));
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
+    transition: 1s;
+    font-size: 18px;
+    letter-spacing: 3px;
+    opacity: 0;
+}*/
+.portfolio .galeria .proyecto .overlay{
+    background: linear-gradient(rgba(40, 41, 41, 0.8),rgba(28,182,152,.8));
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    border-radius: 8px;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    column-gap: .5rem;
-    font-size: small;
-    font-weight: bold;
-    margin-bottom: 2.5rem;
-}
-
-.habilidades_info,
-.habilidades_datos,
-.habilidades_blob{
-    display: grid;
-}
-
-.habilidades_info{
-    grid-template-columns: repeat(3,  max-content);
-    gap: 2.5rem 2rem;
-}
-
-.habilidades_col{
-    grid-template-columns: repeat(2,  max-content);
-    gap: 2.5rem 2rem;
-}
-.habilidades_col,
-.habilidades_container
-{
-    display: grid;
-}
-
-.habilidades_datos{
     justify-content: center;
     text-align: center;
+    padding: 0 40px;
+    transition: height 0.5s;
+}
+.portfolio .galeria .proyecto .overlay h3{
+    margin-bottom: 20px;
+    transition: 1s;
 }
 
-.habilidades_blob{
-    width: 80px;
-    height: 100px;
-    background-color: grey;
-    border-radius: 3rem;
-    place-items: center;
-    margin-bottom: 1rem;
+.portfolio .galeria .proyecto .overlay:hover{
+    opacity: 1;
 }
 
-.habilidades_blob img{
-    width: 40px;
+.portfolio .galeria .proyecto .overlay:hover h3{
+    margin-bottom: 0px;
 }
 
-.habilidades_nombre{
-    font-size: small;
-    margin-bottom: .25rem;
+.portfolio .galeria .proyecto .overlay p{
+    color: #fff;
+    
+
 }
+
+
+.portfolio .modal-body{
+    background-color: #252A2E;
+}
+.portfolio .col-md-4{
+    background-color: transparent;
+    border-radius: 8px;
+}
+
+.portfolio .col-md-4 img{
+border-radius: 8px;
+width: 240px;
+height: 240px;
+margin-right: 50px;
+}
+
+.portfolio .modal-body .row .col h3{ 
+    font-size: 28px !important;
+    font-family: 'Righteous'!important;
+    margin-bottom: 25px !important;
+}
+
+.portfolio .modal-body .row .col p{
+    font: 18px !important;
+    line-height: 22px !important;
+    margin-bottom: 20px !important;
+}
+
+.portfolio .modal-body .row .col p span{
+    color: #1CB698 !important;
+    font-weight: bold !important;
+}
+
+.portfolio .modal-body .row .col li{
+    font-family: 'Righteous' !important;
+}
+
+
+
+
+
+
 
 
 

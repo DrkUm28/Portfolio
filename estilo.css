@@ -11,6 +11,7 @@ html{
     scroll-behavior: smooth;
 }
 
+
 /* MENU */
 .contenedor-header{
     background: #1e2326;
@@ -19,6 +20,18 @@ html{
     top: 0;
     left: 0;
     z-index: 99;
+}
+.contenedor-header .eng img{
+    width: 30px;
+    height: 20px;
+    border-radius: 2px;
+    margin-left: 50px;
+}
+
+.contenedor-header .esp img{
+    width: 30px;
+    height: 20px;
+    border-radius: 2px;
 }
 
 .contenedor-header header{
@@ -247,7 +260,7 @@ html{
 /*css skills*/
 
 .habilidades{
-    background-color: #1e2326;
+    background-color: #252A2E;
     color: #fff;
     padding: 50px 20px;
 }
@@ -264,6 +277,14 @@ html{
 
 .habilidades span{
     color: #1CB698;
+    font-size: 20px;
+    font-family: 'Righteous';
+    text-align: center;
+    align-items: center;
+}
+
+.habilidades p{
+    color: #fff;
     font-size: 20px;
     font-family: 'Righteous';
     text-align: center;
@@ -307,7 +328,7 @@ html{
 .habilidades_col{
     grid-template-columns: repeat(2,  max-content);
     gap: 2.5rem 2rem;
-    background-color: #1e2326;
+    background-color: #252A2E;
 }
 
 .habilidades_col,
@@ -319,13 +340,13 @@ html{
     justify-content: center;
     text-align: center;
     margin: 0.75rem;
-    background-color: #1e2326;
+    background-color: #252A2E;
 }
     
 .habilidades_blob{
     width: 80px;
     height: 100px;
-    background-color: #2e2e2e;
+    background-color: #2f4040;
     border-radius: 3rem;
     place-items: center;
     margin-bottom: 1rem;
@@ -419,6 +440,7 @@ html{
 .habilidad .fila .item h4{
     font-size: 20px;
     margin-bottom: 10px;
+    color: #1CB698;
 }
 
 .habilidad .fila .item p{
@@ -519,21 +541,6 @@ html{
     transition: transform 0.5s;
 }
 
-/*.portfolio .galeria .proyecto .overlay{
-    background: linear-gradient(rgba(28,182,152,.8), rgba(28,182,152,.8));
-    position: absolute;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    transition: 1s;
-    font-size: 18px;
-    letter-spacing: 3px;
-    opacity: 0;
-}*/
 .portfolio .galeria .proyecto .overlay{
     background: linear-gradient(rgba(40, 41, 41, 0.8),rgba(28,182,152,.8));
     height: 100%;
@@ -566,7 +573,76 @@ html{
 
 .portfolio .galeria .proyecto .overlay p{
     color: #fff;
-    
-
 }
 
+.portfolio .galeria .proyecto .overlay i{
+    color: #fff;
+    margin-top: 20px;
+    font-size: 20px;
+    background-color: #323232;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.portfolio .modal-body{
+    background-color: #252A2E;
+}
+.portfolio .col-md-4{
+    background-color: transparent;
+    border-radius: 8px;
+}
+
+.portfolio .col-md-4 img{
+border-radius: 8px;
+width: 240px;
+height: 240px;
+margin-right: 50px;
+}
+
+.portfolio .modal-body .row .col h3{ 
+    font-size: 28px !important;
+    font-family: 'Righteous'!important;
+    margin-bottom: 25px !important;
+}
+
+.portfolio .modal-body .row .col p{
+    font: 18px !important;
+    line-height: 22px !important;
+    margin-bottom: 20px !important;
+}
+
+.portfolio .modal-body .row .col p span{
+    color: #1CB698 !important;
+    font-weight: bold !important;
+}
+
+.portfolio .modal-body .row .col li{
+    font-family: 'Righteous' !important;
+    margin-left: 20px;
+}
+
+.portfolio .modal-body .modal-footer a{
+    color: #fff;
+}
+
+.footer{
+    background-color: #1e2326;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+.footer .row{
+    max-width: 600px;
+    margin: auto;
+}
+
+.footer h2{
+    font-size: 24px;
+    font-family: 'Righteous';
+    text-align: center;
+    padding-left: 150px;
+}
